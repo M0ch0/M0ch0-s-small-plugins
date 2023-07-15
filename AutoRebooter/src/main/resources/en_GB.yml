@@ -1,0 +1,9 @@
+broadcast:
+  preShutdownNoticeMessage: "[AutoShutdown] The server will be shut down if the TPS does not recover to %f within %d seconds due to high load."
+  inShutdownCountdownMessage: "[AutoShutdown] Server shutting down in %d seconds."
+  inShutdownProgressMessage: "[AutoShutdown] Shutting down the server..."
+  whenTPSRecoveredToThreshold: "[AutoShutdown] Shutdown canceled as the server has recovered from high load."
+system:
+  pluginLoadMessage: "[AutoShutdown] AutoShutdown loaded. TPS threshold is %f, shutdown delay is %d seconds."
+  recoveryRecoverStarted: "[AutoShutdown] TPS has dropped below %f. If it doesn't recover within %d seconds, the shutdown event will commence."
+  recoveryRecoverRecovered: "[AutoShutdown] TPS has recovered to %f. The shutdown event was not initiated."

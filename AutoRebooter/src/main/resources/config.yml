@@ -1,0 +1,10 @@
+lang: "en_GB"
+tick-threshold: 9.5
+tick-reference: 1 # [ 0 | 1 | 2 ] The setting determines how many minutes of average tick counts in the past are used to make the decision for reboot. If set to 0, it uses the average tick count of the past 1 minute. If set to 1, it uses the average tick count of the past 5 minutes. If set to 2, it uses the average tick count of the past 15 minutes to make the decision.
+check-interval: 180
+shutdown-delay-time: 60
+shutdown-countdown-time: 10
+tick-recovery-recover: true # If this setting is on, if the TPS recovers to the specified level just before shutdown, the shutdown is canceled.
+tick-recovery-threshold: 15.5
+recovery-recover-delay: false # Works only if tick-recovery-recover is true. A hidden TPS determination is made prior to the shutdown announcement, and shutdown is only performed if TPS recovery is not allowed during that time.
+recovery-recover-delay-time: 60 # Works only when recovery-recover-delay is true, grace period for TPS recovery

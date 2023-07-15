@@ -1,0 +1,7 @@
+name: AutoRebooter
+version: '0.201'
+main: io.github.mocho.autoshutdown.AutoShutdown
+api-version: 1.13
+prefix: AutoShutdown
+authors: [ Mocho ]
+description: Auto shutdown plugin for small personal server

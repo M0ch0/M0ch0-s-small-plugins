@@ -1,0 +1,9 @@
+broadcast:
+  preShutdownNoticeMessage: "[AutoShutdown] サーバーが高負荷状態のため、%d 秒後までにTPSが %f まで回復しない場合、サーバーを停止します。"
+  inShutdownCountdownMessage: "[AutoShutdown] サーバー停止まで %d 秒。"
+  inShutdownProgressMessage: "[AutoShutdown] サーバーを停止します..."
+  whenTPSRecoveredToThreshold: "[AutoShutdown] サーバーが高負荷状態から脱したため、シャットダウンをキャンセルします。"
+system:
+  pluginLoadMessage: "[AutoShutdown] AutoShutdownをロードしました、TPS閾値は %f, シャットダウンディレイは %d 秒です。"
+  recoveryRecoverStarted: "[AutoShutdown] TPSが%fを下回りました、%d秒後までに回復しない場合、停止イベントを開始します。"
+  recoveryRecoverRecovered: "[AutoShutdown] TPSが%fまで回復したため、停止イベントは開始されませんでした。"
