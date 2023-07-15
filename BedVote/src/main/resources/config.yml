@@ -1,0 +1,11 @@
+lang: en_GB # [en_GB | ja_JP]
+vote:
+  autostart: false # [true | false]
+  time-limit: 60
+  required-agree-ratio: 2 # If the number of agree votes exceeds a certain threshold, which is calculated as the total number of voters divided by the value specified in this setting, the vote will be considered as passed
+  required-decline-ratio: 2 # If the number of decline votes exceeds a certain threshold, which is calculated as the total number of voters divided by the value specified in this setting, the vote will be considered as rejected.
+  phantom-spawn-timer-reset-target: agreed # [agreed | all | none] agreed : only vote agreed player / all : all player / none : none
+boss-bar:
+  show: true  # [true | false]
+  color: BLUE # [BLUE | YELLOW | WHITE | PURPLE | PINK | GREEN ]
+  style: SEGMENTED_10 # [SEGMENTED_6 | SEGMENTED_10 | SEGMENTED_12 | SEGMENTED_20]

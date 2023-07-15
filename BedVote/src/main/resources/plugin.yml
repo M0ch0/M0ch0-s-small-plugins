@@ -1,0 +1,10 @@
+name: BedVote
+version: '0.0.101'
+main: io.github.mocho.bedvote.BedVote
+api-version: 1.19
+author: M0ch0
+commands:
+  bedvote:
+    aliases: [ bv ]
+    description: Best Democratic Bed
+    usage: /bedvote [vote/autovote] [agree|decline]
