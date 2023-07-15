@@ -1,0 +1,5 @@
+name: ECAPI
+version: '${version}'
+main: io.github.mocho.ecapi.ECAPI
+api-version: 1.19
+load: STARTUP
